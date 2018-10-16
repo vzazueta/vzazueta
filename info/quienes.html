@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+ <link type="text/css" rel="stylesheet" href="quienes.css"/>
+    <div class="panel-card">
+        <style>
+        body{
+            color: white;
+        }
+        h1{
+            color: brown;
+            font: sans-serif;
+            text-align: left;
+        }
+        </style>
+
+    <h1>
+        ¿Quienes?
+    </h1>
+
+        <script>
+
+        function changeBackground() {
+        $(".prdco").first().fadeIn("slow", function showNext() {
+        var next = $(this).next('body').length ? $(this).next('body') : $(".prdco").first();
+        $(this).siblings().fadeOut('slow').delay(1000);
+        next.fadeIn("slow", showNext);
+         });
+        }
+
+        $(document).ready(function () {
+        setTimeout(changeBackground, 100);
+        });
+
+        </script>
+        <body>
+        <div class="fondonegro">
+            <p><img src="Unemployed-graduates.jpg" class="desempleo" align="left"></p>
+            <p class="quienes" color="white">
+            El desempleo es un hecho que puede afectar a cualquier mexicano
+            sin importar su estatus social, edad, educación, o género. A pesar
+            de esto el desempleo en México se concentra en dos grupos principales,
+            las mujeres y los jovenes. Según el Observatorio Cívico de la educación,
+            menos del 20% de los recién graduados logran encontrar un trabajo adecuado.
+            <br>
+            </p>
+        </div>
+
+		<p>
+	<a class="waves-effect waves-light btn-large" href="../index.html">Regresar</a>
+	</p>
+    </body>
+    <div>
+        <img src="afectados.jpg" class="afectados" align="right">
+        </div>
+</html>

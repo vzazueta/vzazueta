@@ -1,0 +1,34 @@
+@charset "UTF-8";
+/* CSS Document */
+	h1 {text-align: center;
+    font-size:80pt;
+	background-color: beige;
+	 }
+	 
+	body{background-color: black}
+
+	p.quienes{
+		font-size:18pt;
+	    margin-right: 30%;
+	    margin-left: 40%;
+		/*font-family: Gotham, "Arial", Helvetica, Arial, "sans-serif"; 
+		*/
+		font-family: 'Lucida Sans', 
+    	'Lucida Sans Regular', 
+    	'Lucida Grande', 
+    	'Lucida Sans Unicode', 
+    	Geneva, 
+    	Verdana, 
+    	sans-serif;
+	}
+
+	img.desempleo {
+		width: 38%;
+		height: 25%;
+	  }
+		  
+	img.afectados {
+		width: 30%;
+		height: 350px;
+		margin-top: -26%;
+	  }

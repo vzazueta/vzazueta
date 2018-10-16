@@ -1,0 +1,46 @@
+h1{
+    text-transform: capitalize;
+    background-color: black;
+    color: khaki;
+    font-family: fantasy;
+    margin-right: 80%;
+    margin-bottom: 2%;
+    font-size: 1200%;
+}
+
+div.fondonegro{
+    background-color: black;
+    color: khaki;
+    margin-left: 18%;
+    margin-right: 18%;
+    margin-top: -1%;
+    font-family: fantasy;
+    font-size: 175%;
+}
+
+img.infodes{
+    height: 38%;
+    width: 60%;
+    margin-bottom: 6%;
+    margin-right: -2%;
+    margin-left: 2%;
+}
+
+img.pasos {
+    height: 120%;
+    width: 95%;
+}
+
+p.que{
+    margin-left: 8%;
+    margin-right: 8%;
+    font-family: 'Lucida Sans', 
+    'Lucida Sans Regular', 
+    'Lucida Grande', 
+    'Lucida Sans Unicode', 
+    Geneva, 
+    Verdana, 
+    sans-serif;
+    text-decoration: azure;
+}
+

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/w3css/3/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+    <link type="text/css" rel="stylesheet" href="cssque.css"/>
+
+    <h1>
+        ¿Qué es?
+    </h1>
+
+    <body background="periodico.jpg" class="prdco">
+
+        <script>
+
+        function changeBackground() {
+        $(".prdco").first().fadeIn("slow", function showNext() {
+        var next = $(this).next('body').length ? $(this).next('body') : $(".prdco").first();
+        $(this).siblings().fadeOut('slow').delay(1000);
+        next.fadeIn("slow", showNext);
+         });
+        }
+
+        $(document).ready(function () {
+        setTimeout(changeBackground, 100);
+        });
+
+        </script>
+
+        <div class="fondonegro">
+            <p class="que">
+            El desempleo, o paro, significa falta de empleo.
+            Se trata de un desajuste en el mercado laboral,
+            donde la oferta de trabajo (por parte de los trabajadores)
+            es superior a la demanda de trabajo (por parte
+            de las empresas).
+            <br>
+            <br>
+            <img src="desemp.jpg" class="infodes" align="right">
+            <br>
+            <br>
+            Cuando existen más personas dispuestas a ofrecer
+            su trabajo a las empresas que puestos de trabajo
+            disponibles se produce una situación de desempleo.
+            Cuando existe gente que no tiene empleo se conoce
+            como desempleo.
+            <br>
+            <br>
+            <img src="6pasos.jpg" class="pasos" align="middle">
+            <br>
+            <br>
+            </p>
+        </div>
+		<p>
+	<a class="waves-effect waves-light btn-large" href="../index.html">Regresar</a>
+	</p>
+    </body>
+</html>
