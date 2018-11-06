@@ -46,14 +46,3 @@ p.que{
     sans-serif;
     text-decoration: azure;
 }
-li {
-    font-size: 130%;
-    float: left;
-}
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
