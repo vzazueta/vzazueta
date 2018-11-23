@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+  <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+ <link type="text/css" rel="stylesheet" href="solution.css"/>
+    <h1>
+        Solution
+			</div>
+    </h1>
+
+        <script>
+        function changeBackground() {
+        $(".prdco").first().fadeIn("slow", function showNext() {
+        var next = $(this).next('body').length ? $(this).next('body') : $(".prdco").first();
+        $(this).siblings().fadeOut('slow').delay(1000);
+        next.fadeIn("slow", showNext);
+         });
+        }
+        $(document).ready(function () {
+        setTimeout(changeBackground, 100);
+        });
+        </script>
+        <body bgcolor="#c9d0d6">
+			<h2>Explanation</h2>
+        <div class="fondo">
+            <p>Exists a lot of people with abilities that cannot be shown. We want to make a festival, a diversity of jobs, give the opportunity to people who is unemployed and also, businesses whose are looking for employees. In Mexico, once a year the government makes job fairs, exists two types: virtual or face-to-face. Our festival is called EmpleoMx, we imagine a big space like expo guadalajara, so every big job and every person can show their own work and talent. It will be conferences about how to get a job, how to have a successful interview, advices and assessing, businesses looking for employees, business men who wants to invest, ideas of new businesses; and organizations of entrepreneurship. 
+</p>
+			<h3>Impact</h3>
+            <p>
+			
+           
+For now, the festival will be in Guadalajara. But, if every state has one festival per year, it can change the unemployed problem in all Mexico, and also the many informal jobs. Is specially made for graduates.
+
+            </p>
+			<p>
+			<h4>
+			Expert Feedback
+			</h4>
+			<a href="expertfeedback.mp3">Experto en la industria de Artes Escénicas</a>
+			</p>
+			<p> <h5> First Versions</h5>
+			<div class="plastilina"><img src="plastilina.jpeg" width="20%"> <img src="plastilina2.jpeg" width="20%">
+			</div>
+			</p>
+
+<p> <h6> User Feedback</h6>
+
+</p>
+ <h7>Prototype</h7>
+<p><img src="Poster.jpeg" width="20%"></p>
+        </div>
+
+		<p align="left">
+	<a class="waves-effect waves-light btn-large" href="../index.html">Regresar</a>
+	</p>
+    </body>
+</html>
