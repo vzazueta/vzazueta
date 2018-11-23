@@ -8,11 +8,11 @@ head{
 }
 
 body{
-    background-color: darkcyan;
+    background-color: #82aad3;
 }
 
 h1{
-    color: peru;
+    color: tomato;
     text-align: center;
     text-shadow: 2px 2px #ff0000;
     font-size: 80px;
