@@ -1,0 +1,47 @@
+head{
+    font-style: oblique;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10%;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-size: 70%;
+}
+
+body{
+    background-color: darkcyan;
+}
+
+h1{
+    color: peru;
+    text-align: center;
+    text-shadow: 2px 2px #ff0000;
+    font-size: 80px;
+}
+
+h2 {
+    text-align: right;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 200%;
+    color: ivory;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p{
+    text-align: right;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 100%;
+    color: ivory;
+    font-family: 'Courier New', Courier, monospace;  
+}
+
+li{
+    text-align: right;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 100%;
+    color: ivory;
+    font-family: 'Courier New', Courier, monospace;  
+}
+
